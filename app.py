@@ -50,7 +50,7 @@ def predict():
 
 	img = img.reshape(1,48,48,1)
 
-	model = load_model('model_3.h5')
+	model = load_model('model.h5')
 
 	pred = model.predict(img)
 
